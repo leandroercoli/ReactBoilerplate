@@ -1,0 +1,14 @@
+@import "../base/_variables.scss";
+@import "../base/_placeholders.scss";
+@import "../base/_mixins.scss";
+
+.home-container {
+  @extend %spread-full-window;
+}
+
+.main {
+  margin-top: $topbar-height;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: calc(100% - #{$topbar-height} - #{$footer-height});
+}

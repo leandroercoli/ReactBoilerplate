@@ -1,0 +1,28 @@
+@import 'base/_variables.scss';
+
+// GLOBAL
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Montserrat", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $default-font-color;
+  background: $default-background;
+  cursor: default;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import 'layout/_topbar.scss';
+@import 'layout/_footer.scss';
+
+@import 'modules/_home.scss';
+@import 'modules/_login.scss';
+@import 'modules/_contact-bar.scss';
+@import 'modules/_message-paper.scss';

@@ -1,0 +1,17 @@
+@import "../base/_variables.scss";
+@import "../base/_placeholders.scss";
+@import "../base/_mixins.scss";
+
+.topbar {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: $topbar-height;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}

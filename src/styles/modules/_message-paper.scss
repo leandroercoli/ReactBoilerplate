@@ -1,0 +1,23 @@
+@import "../base/_variables.scss";
+@import "../base/_placeholders.scss";
+@import "../base/_mixins.scss";
+
+.message-container {
+  padding: 10px 15px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin:5px 10px;
+
+  p {
+    font-weight: 500;
+  }
+}
+
+.message-success {
+  background-color: mix($green, $white, 50%);
+  color: $green;
+}
+.message-fail {
+  background-color: mix($red, $white, 50%);
+  color: $red;
+}
